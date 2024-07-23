@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Campo</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>CAMPOS A e B</h1>
+        <h2>VALOR</h2>
+        <form id="form-valor">
+            <input type="number" id="valor-A" required placeholder="valor do campo A" />
+            <input type="number" id="valor-B" required placeholder="valor do campo B" />
+            <button id="btn-validar" type="submit">VALIDAR</button>
+            <p class="error-message">O valor do campo B deve ser maior que o valor do campo A.</p>
+        <p class="success-message">Formulário válido!</p>
+        </form>
+        <p class="sucess-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
